@@ -68,3 +68,21 @@ body {
 .hero button:hover {
     background-color: #e55b50;
 }
+
+.menu {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
