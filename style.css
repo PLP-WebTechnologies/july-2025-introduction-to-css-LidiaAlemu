@@ -86,3 +86,25 @@ body {
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.menu-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #ff6f61;
+    border-radius: 10px;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+    color: #ff6f61;
+}
+
+.menu-item p {
+    color: #555;
+}
